@@ -1,0 +1,65 @@
+linters:
+  disable-all: true
+  enable:
+    - importas
+    - gosimple
+    - asciicheck
+    - depguard
+    - dogsled
+    - dupl
+    - errname
+    - forbidigo
+    - forcetypeassert
+    - gochecknoglobals
+    - gochecknoinits
+    - goconst
+    - gocritic
+    - godot
+    - godox
+    - goerr113
+    - goheader
+    - golint
+    - gomnd
+    - gomoddirectives
+    - gomodguard
+    - goprintffuncname
+    - ifshort
+    - interfacer
+    - ireturn
+    - lll
+    - makezero
+    - misspell
+    - nakedret
+    - nilnil
+    - nlreturn
+    - nolintlint
+    - paralleltest
+    - predeclared
+    - promlinter
+    - revive
+    - stylecheck
+    - tagliatelle
+    - tenv
+    - testpackage
+    - thelper
+    - tparallel
+    - unconvert
+    - varnamelen
+    - wastedassign
+    - whitespace
+    - wrapcheck
+linters-settings:
+  gocritic:
+    disabled-checks:
+      - appendAssign
+  importas:
+    alias:
+      - alias: kin
+        pkg: github.com/getkin/kin-openapi/openapi3
+      - alias: kinf
+        pkg: github.com/getkin/kin-openapi/openapi3filter
+      - alias: kinrl
+        pkg: github.com/getkin/kin-openapi/routers/legacy
+      - alias: kinr
+        pkg: github.com/getkin/kin-openapi/routers
+    no-unaliased: true
