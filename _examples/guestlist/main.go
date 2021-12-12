@@ -1,15 +1,3 @@
-# Go OpenAPI
-
-This project extends the [go-chi](https://github.com/go-chi/chi) router to support OpenAPI 3, bringing to you a simple
-interface to build a router conforming your API contract.
-
-## Examples
-
-See [_examples/](https://github.com/angelokurtis/go-openapi/blob/main/_examples/) for more examples.
-
-**As easy as:**
-
-```go
 package main
 
 import (
@@ -42,4 +30,3 @@ func main() {
 	})
 	http.ListenAndServe(":3000", r)
 }
-```
