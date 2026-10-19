@@ -1,17 +1,19 @@
 module github.com/angelokurtis/go-openapi
 
-go 1.17
+go 1.25
 
 require (
-	github.com/getkin/kin-openapi v0.86.0
+	github.com/getkin/kin-openapi v0.149.0
 	github.com/go-chi/chi/v5 v5.0.7
 	github.com/go-chi/render v1.0.1
 )
 
 require (
-	github.com/ghodss/yaml v1.0.0 // indirect
-	github.com/go-openapi/jsonpointer v0.19.5 // indirect
-	github.com/go-openapi/swag v0.19.5 // indirect
-	github.com/mailru/easyjson v0.0.0-20190626092158-b2ccc519800e // indirect
-	gopkg.in/yaml.v2 v2.3.0 // indirect
+	github.com/go-openapi/jsonpointer v0.22.5 // indirect
+	github.com/go-openapi/swag/jsonname v0.25.5 // indirect
+	github.com/kr/pretty v0.1.0 // indirect
+	github.com/oasdiff/yaml v0.1.1 // indirect
+	github.com/oasdiff/yaml3 v0.0.14 // indirect
+	github.com/santhosh-tekuri/jsonschema/v6 v6.0.3 // indirect
+	golang.org/x/text v0.14.0 // indirect
 )
